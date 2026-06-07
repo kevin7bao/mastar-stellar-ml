@@ -85,3 +85,4 @@ service_account.json
 *.tmp
 *.bak
 .cache/
+.DS_Store
