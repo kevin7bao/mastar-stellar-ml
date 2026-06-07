@@ -1,0 +1,87 @@
+# ── Large data files (NEVER commit these) ─────────────────────────────────────
+*.fits
+*.fits.gz
+*.fz
+*.npy
+*.npz
+*.hdf5
+*.h5
+
+# Processed outputs (stored on Google Drive, not git)
+data/processed/
+data/raw/
+
+# ── Python ─────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# ── Jupyter Notebooks ──────────────────────────────────────────────────────────
+# Keep .ipynb files, but strip output checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── OS / IDE ───────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Google Colab / Drive ───────────────────────────────────────────────────────
+# Don't accidentally commit Drive mount paths or Colab temp files
+/content/
+drive/
+
+# ── Model artifacts (large) ────────────────────────────────────────────────────
+# Commit final best models only — keep intermediate checkpoints out
+results/supervised/checkpoints/
+results/unsupervised/checkpoints/
+*.pkl
+*.joblib
+*.pt
+*.pth
+
+# Exception: allow small saved models explicitly staged with git add -f
+# !results/supervised/best_model_rf.pkl
+
+# ── Credentials / secrets ──────────────────────────────────────────────────────
+.env
+*.env
+secrets.json
+credentials.json
+token.json
+service_account.json
+
+# ── Misc ───────────────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+.cache/
