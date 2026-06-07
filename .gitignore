@@ -8,8 +8,10 @@
 *.h5
 
 # Processed outputs (stored on Google Drive, not git)
-data/processed/
-data/raw/
+data/processed/*
+!data/processed/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
 
 # ── Python ─────────────────────────────────────────────────────────────────────
 __pycache__/
