@@ -88,3 +88,5 @@ service_account.json
 *.bak
 .cache/
 .DS_Store
+
+references/
