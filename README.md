@@ -58,9 +58,6 @@ mastar-stellar-ml/
 │   └── 03_unsupervised/
 │       └── siads696_unsupervised.ipynb      ← Part B: PCA, k-means, LOF
 │
-├── src/
-│   └── preprocessing_utils.py       ← Shared utility functions (visit selection, normalization)
-│
 ├── data/
 │   ├── raw/                         ← EMPTY (see Data Access — files too large for git)
 │   ├── processed/                   ← EMPTY (outputs written to Google Drive)
