@@ -52,12 +52,10 @@ mastar-stellar-ml/
 │
 ├── notebooks/
 │   ├── 01_preprocessing/
-│   │   └── siads696_preprocessing.ipynb     ← Data download, filtering, normalization
-│   ├── 02_eda/
-│   │   └── siads696_eda.ipynb               ← Exploratory analysis (both subsets)
-│   ├── 03_supervised/
+│   │   └── siads696_preprocessing.ipynb     ← Data download, filtering, normalization, EDA
+│   ├── 02_supervised/
 │   │   └── siads696_supervised.ipynb        ← Part A: regression models
-│   └── 04_unsupervised/
+│   └── 03_unsupervised/
 │       └── siads696_unsupervised.ipynb      ← Part B: PCA, k-means, LOF
 │
 ├── src/
